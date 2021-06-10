@@ -1,0 +1,18 @@
+CREATE TABLE movies(
+	name varchar(255),
+  	genre varchar(255),
+  	releaseDate date,
+  	rating int(3),
+  	3D varchar(3)
+);
+INSERT INTO movies
+VALUES('Mortal Kombat' , 'Action' ,'2021-04-23' , 3 ,  'No'),
+('My Neighbor Totoro' , 'Adventure' , '1990-07-13' , 4 , 'No'),
+('The Mask' , 'Comedy' , '1994-07-28' , 3 , 'No'),
+('Goodnight Mommy' , 'Horror' , '2015-09-11' , 3 , 'No'),
+('Martyrs' , 'Horror' , '2016-01-22' , 2 , 'No'),
+(' The Life of Birds' , 'Documentary' , '1998-10-21' , 4.5 , 'No'),
+('Scott Pilgrim vs. the World' , 'Comedy' , '2010-08-13' , 4, 'No'),
+('I Care a Lot' , 'Comedy' , '2021-02-19' , 3 , 'No'),
+('Ready Player One' , 'Science Fiction' , '2018-03-29' , 3 , 'Yes'),
+('Harry Potter and the Order of the Phoenix' , 'Fantasy' , '2007-07-11' , 4 , 'Yes');
