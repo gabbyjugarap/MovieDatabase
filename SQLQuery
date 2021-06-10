@@ -1,0 +1,5 @@
+Select * FROM movies;
+SELECT name,genre FROM movies WHERE genre LIKE 'Comedy';
+SELECT	* FROM movies WHERE releaseDate ORDER BY releaseDate ASC;
+SELECT name,releaseDate FROM movies WHERE rating>=3;
+SELECT name,rating FROM movies WHERE 3D LIKE 'Yes';
